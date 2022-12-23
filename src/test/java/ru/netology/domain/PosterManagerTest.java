@@ -139,7 +139,7 @@ public class PosterManagerTest {
         String movie5 = "Movie V";
         String movie6 = "Movie VI";
 
-        PosterManager manager = new PosterManager();
+        PosterManager manager = new PosterManager(5);
         manager.addMovie(movie1);
         manager.addMovie(movie2);
         manager.addMovie(movie3);
