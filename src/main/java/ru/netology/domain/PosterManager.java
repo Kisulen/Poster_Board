@@ -24,7 +24,7 @@ public class PosterManager {
         return movies;
     }
 
-    public String[] findLast(int limit) {
+    public String[] findLast() {
         int resultLength;
         if (movies.length < limit) {
             resultLength = movies.length;
